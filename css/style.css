@@ -1,0 +1,29 @@
+/*importacion  de tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+/*selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/*selector por etiqueta*/
+span{
+    color:#8a2be2;
+}
+/*selector por id*/
+#option_one, #option_five{
+    font-weight: 900;
+    background-color:#7fffd4;
+    margin-left: 20px;
+}
+/*selector por clase*/
+.option_group{
+    background-color: #05bb97;
+}
+.other_option{
+    font-size: 20px;
+}
+/*selector por atributo*/
+[disabled]{
+    background-color: #4f777e;
+}
