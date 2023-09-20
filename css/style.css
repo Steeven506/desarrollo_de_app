@@ -27,3 +27,54 @@ span{
 [disabled]{
     background-color: #4f777e;
 }
+/*selector por id*/
+#title_box{
+    color: #8a2be2;
+    background-color:#4f777e;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: lowercase;
+    margin: 10px 20px 15px 25px ;
+    border: 1px dotted #000;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    word-spacing: 15px;
+    letter-spacing: 8px;
+    font-size: 30px;
+    box-shadow: 0px 0px 10px 2px #8a2be2;
+    -webkit-box-shadow: 0px 0px 10px 2px #8a2be2(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 2px #8a2be2(0,0,0,0.75);
+}
+#box_father{
+    background-color: #aeff7f;
+    width: 600px;
+    height: 400px;
+    background-image: url(https://www.lavanguardia.com/andro4all/hero/2023/04/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png?width=768&aspect_ratio=16:9&format=nowebp);
+    background-position: center;
+    background-size: cover;
+
+}
+
+/*#box_model{
+    background-color: chocolate;
+    width: 50%;
+    height: 50%;
+}*/
+
+/*aplicacion de media queris*/
+@media(min-width: 800px) and (max-width: 1200px){
+    body{
+        background-color: #a9a9a9;
+    }
+    #title_box{
+        text-align: left;
+    }
+}
+@media (max-width: 799px){
+    body{
+        background-image: url(https://www.lavanguardia.com/andro4all/hero/2023/04/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png?width=768&aspect_ratio=16:9&format=nowebp);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat ;
+    }
+}
