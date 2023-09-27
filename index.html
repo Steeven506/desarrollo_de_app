@@ -4,24 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/style_login.css">
+
 </head>
+
 <body>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina principal</title>
-</head>
-<body>
-    <h1>Elija una Pagina</h1>
-    <ul>
-        <li><a href="html\tablitas.html">Tablas</a></li>
-        <li><a href="html/formulariecito.html">Formularios</a></li>
-        <li><a href="html/textito.html">Texto</a></li>
-        <li><a href="html/semantico.html">Semanticas</a></li>
-        <li><a href="html/flexbox.html">FlexBox</a></li>
-        <li><a href="html/agrupaciones.html">Agrupación</a></li>
-        <li><a href="html/multimedios.html">Multimedia</a></li>
-        <li><a href="html/estilos.html">Estilos</a></li>
-    </ul>
+    <div class="background"></div>
+    <div class="centering">
+        <form action="" class="my_form">
+            <!-- .login_welcome>img.login+h1{Iniciar Sesión} -->
+            <div class="login_welcome">
+                <img src="https://png.pngtree.com/png-clipart/20230916/original/pngtree-vintage-space-astronaut-illustration-with-moon-and-planets-vector-png-image_12231746.png" alt="" class="login">
+                <h1>Iniciar Sesión</h1>
+            </div>
+            <div class="text_field">
+                <label form="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Ingrese su correo electronico" aria-label="email" required>
+                <img src="https://i.pinimg.com/originals/de/42/01/de42018bf579bbc26a599798233fbaca.png" alt="Email icon" title="Email icon">
+            </div> 
+            <div class="text_field">
+                <label form="password">password</label>
+                <input type="password" id="password" name="email" placeholder="" aria-label="password" required>
+                <img src="https://images.freeimages.com/vhq/images/previews/17a/padlock-icon-141877.png" alt="password icon" title="password icon">
+            </div>
+            <input type="submit" class="my_form_buttom" value="Login">
+            <div class="my_form_action"></div>
+            <!-- .my_form_rowspan{¿Ovido su contraseña?}+{Recuperar cuenta}  -->
+            <div class="my_form_rowspan">
+                <span>¿Ovido su contraseña?></span>
+                <a href="">Recuperar cuenta</a>
+            </div>
+        
+            <!-- .my_form_signuo>a{Crear cuenta nueva} -->
+            <div class="my_form_singup">
+                <a href="#">Crear cuenta nueva</a></div>
+
+        </form>
+    </div>
+
 </body>
 </html>
