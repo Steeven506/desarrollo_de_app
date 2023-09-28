@@ -142,7 +142,7 @@ h1{
     color: #a7a2cb;
 
 }
-.my_form_row{
+.my_form_rowspan{
     display: flex;
     justify-content: center;
 }
