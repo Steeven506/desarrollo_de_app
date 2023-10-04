@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* barra de acciones */
+#titulo{
+    font-weight: 1200;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #2475F0;
+    color: #ffffff;
+}
+#option_bar{
+    background-color: #2475F0;
+    margin-bottom: 0px;
+    height: 40px;
+    margin: 0px auto;
+
+    
+}
+#options_{
+    color: #fff;
+    padding-top: 10px;
+    padding: 10px;
+}
+table#configuration{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 9px;
+
+}
+/* index */
+#banner{
+    height: 400px;
+    margin-top: 0px;
+    background-image: url(../mockup/img/banner.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+h3, h4{
+    text-align: center;
+}
+#icono_index{
+    height: 220px;
+    margin: 15px;
+    padding: 15px;
+}
+#agendar{
+    margin: 15px;
+}
+/* servicios */
+#icon_{
+    background-position: center;
+    background-size: cover;
+    margin: 0px auto;
+    width: 240px;
+    height: 210px;
+    
+}
+
+table#tabla{
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 100px 60px;
+}
+/* galeria */
+img{
+    width: 100%;
+}
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+.column img{
+    padding: 5px;
+}
+@media (max-width: 800px){
+    .column{
+        flex: 50%
+    }
+}
+@media (max-width: 600px){
+    .column{
+        flex: 100%
+    }
+}
+/* formulario para agendar */
+.background{
+    margin: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-size: 0px;
+    background: linear-gradient(#62B4FF, #7E98FF, #B960FF);
+    background-position: center;
+    border-radius: 10px;
+}
+.form, input, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px #7e7d7d;
+    border-radius: 5px;
+    margin-bottom:20px;
+    outline: 0px;
+}
+label{
+    color: #ffffff;
+}
+
+textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 300px;
+    min-height: 250px;
+}
+#submit{
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: 16px;
+    background: #ffffff;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+#submit:hover{
+    background-color: #c2c2c2;
+}
+p{
+    padding: 10px;
+    margin: 5px;
+    text-align: justify;
+    font-size: 20px;
+}
+/* quienes somos ¿? */
+
+.recursos{
+    box-sizing:border-box;
+    display: flex;
+    margin: 0 auto;
+    padding: 50px;
+    width: 600px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#img_somos_, #img_somos{
+
+    height: 500px;
+    width: 500px;
+
+}
+/* contactanos */
+.position_table{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+table.contact_us {
+    border-collapse: separate;
+    border-spacing: 40px 5px;
+  }
+.contact_us{
+    margin: 0 auto;
+    padding: 25px;
+}
+/* pie de pagina */
+.espacio_abajo{
+    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: #2475F0;
+    background-color: #2475F0;
+    place-items: center;
+}
+.pie_de_pag{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+}
+#text_abajo{
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+
+
+
+
